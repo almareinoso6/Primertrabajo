@@ -24,28 +24,22 @@ void main() {
 
   // Tecnologías a utilizar en el proyecto
   List<String> tecnologias = ["Dart", "Flutter", "Firebase"];
-
-  print("=======================================");
   print(" PRESENTACIÓN DEL PROYECTO");
-  print("=======================================");
   print("Integrantes:");
   for (var integrante in integrantes) {
     print(" - $integrante");
   }
   print("Carrera: $carrera");
   print("Materia: $materia");
-  print("---------------------------------------");
+
   print("Proyecto: $nombreProyecto");
   print("Descripción: $descripcionProyecto");
-  print("---------------------------------------");
   print("Funcionalidades:");
   for (var funcionalidad in funcionalidades) {
     print(" - $funcionalidad");
   }
-  print("---------------------------------------");
   print("Tecnologías a utilizar:");
   for (var tecnologia in tecnologias) {
     print(" - $tecnologia");
   }
-  print("=======================================");
 }
